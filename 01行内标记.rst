@@ -1,0 +1,24 @@
+*斜体*
+
+**粗体**
+
+`代码`
+
+``inline literal``
+
+reference_
+
+`phrase reference`
+
+anonymous__
+
+_`inline internal targe `
+
+|substitution reference|
+
+footnote reference [1]_
+
+citation reference [CIT2002]_
+
+http://docutils.sf.net/
+
