@@ -1,20 +1,65 @@
-.. my_study_rst documentation master file, created by
-   sphinx-quickstart on Mon Nov 20 13:42:47 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. _topics-index:
 
-Welcome to my_study_rst's documentation!
-========================================
+========================
+my_study_rst's 学习笔记
+========================
+
+我自己对rst文档的学习笔记
+
+基础语法
+========
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :caption: 基础语法
+    :hidden:
 
+    基础语法/标题
+    基础语法/段落
+    基础语法/列表
+    基础语法/块
 
+:doc:`基础语法/标题`
+    标题的学习
+:doc:`基础语法/段落`
+    段落的学习
+:doc:`基础语法/列表`
+    列表的学习
+:doc:`基础语法/块`
+    块的学习  
+.. _topics-标题
+.. _topics-段落
+.. _topics-列表
+.. _topics-块 
+ 
+中级语法
+========
 
-Indices and tables
-==================
+.. toctree::
+    :caption: 中级语法
+    :hidden:
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    中级语法/表格
+    中级语法/水平线
+    中级语法/显式标记
+    中级语法/引用
+    中级语法/超链接
+    中级语法/图片
+    中级语法/替换引用和定义
+    中级语法/注释
+
+:doc:`中级语法/表格`
+    表格的学习
+:doc:`中级语法/水平线`
+    水平线的学习
+:doc:`中级语法/显式标记`
+    显式标记的学习
+:doc:`中级语法/引用`
+    引用的学习  
+:doc:`中级语法/超链接`
+    超链接的学习
+:doc:`中级语法/图片`
+    图片的学习 
+:doc:`中级语法/替换引用和定义`
+    替换引用和定义的学习 
+:doc:`中级语法/注释`
+    注释的学习 
