@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <title>代码块</title>
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" /> 
+  </head>
+  <body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>代码块</h1>
+<p>bash代码样例</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="c1">#================================================</span>
+<span class="c1">#FileName   :test_select_46_zhaojiedi.sh</span>
+<span class="c1">#Author     :zhaojiedi</span>
+<span class="c1">#Description:</span>
+<span class="c1">#DateTime   :2017-12-23 10:15:57</span>
+<span class="c1">#Version    :V1.0</span>
+<span class="c1">#Other      :</span>
+<span class="c1">#================================================</span>
+
+<span class="k">select</span> c in yes no <span class="p">;</span> <span class="k">do</span>
+        <span class="nb">echo</span> <span class="s2">&quot; you enter is </span><span class="nv">$c</span><span class="s2">&quot;</span>
+        <span class="k">case</span> <span class="nv">$c</span> in
+                yes<span class="o">)</span>
+                        <span class="nb">echo</span> <span class="s2">&quot;yes&quot;</span><span class="p">;;</span>
+                no<span class="o">)</span>
+                        <span class="nb">echo</span> <span class="s2">&quot;no&quot;</span><span class="p">;;</span>
+                *<span class="o">)</span>
+                        <span class="nb">echo</span> <span class="s2">&quot;other&quot;</span><span class="p">;;</span>
+        <span class="k">esac</span>
+<span class="k">done</span>
+</pre></div>
+</div>
+<p>python代码样例</p>
+<div class="highlight-python代码样例"><div class="highlight"><pre><span></span>try:
+    f = open(&#39;/path/to/file&#39;, &#39;r&#39;)
+    print(f.read())
+finally:
+    if f:
+        f.close()
+
+with open(&#39;/path/to/file&#39;, &#39;r&#39;) as f:
+    print(f.read())
+
+f = open(&#39;/Users/michael/gbk.txt&#39;, &#39;r&#39;, encoding=&#39;gbk&#39;, errors=&#39;ignore&#39;)
+</pre></div>
+</div>
+<p>json对象样例展示</p>
+<div class="highlight-json"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;BeJson&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.bejson.com&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;page&quot;</span><span class="p">:</span> <span class="mi">88</span><span class="p">,</span>
+    <span class="nt">&quot;isNonProfit&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="nt">&quot;address&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;street&quot;</span><span class="p">:</span> <span class="s2">&quot;科技园路.&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;city&quot;</span><span class="p">:</span> <span class="s2">&quot;江苏苏州&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;country&quot;</span><span class="p">:</span> <span class="s2">&quot;中国&quot;</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;links&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Google&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.google.com&quot;</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Baidu&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.baidu.com&quot;</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;SoSo&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.SoSo.com&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

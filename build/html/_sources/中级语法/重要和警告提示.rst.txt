@@ -1,0 +1,6 @@
+.. important :: 经过测试我们发现使用tar --acl 选项打包的时候可以保留acl权限。其实还有xattrs，selinux保留选项的
+
+.. warning::   经过测试我们发现，普通的权限还是能保留的，acl权限会在压缩和解压过程中丢失的。
+
+.. note:: 这个是note
+
