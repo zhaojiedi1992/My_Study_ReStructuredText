@@ -13,14 +13,12 @@ ref
 doc  
 =======================================
 
-.. code-block:: text
-
-    :doc:`/基础语法/列表` 
+:doc:`/基础语法/列表` 
 
 download
 =======================================
 
-:download:`/sphinx标记结构/test.py` 
+:download:`/sphinx标记结构/test.csv` 
 
 
 替换
