@@ -8,8 +8,8 @@ if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=python -msphinx
 )
 set SOURCEDIR=source
-set BUILDDIR=_build
-set SPHINXPROJ=my_study_rst
+set BUILDDIR=build
+set SPHINXPROJ=My_Study_ReStructuredText
 
 if "%1" == "" goto help
 

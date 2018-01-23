@@ -1,0 +1,357 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>5. 显示代码 &mdash; My_Study_ReStructuredText v0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="My_Study_ReStructuredText v0.1 documentation" href="../index.html"/>
+        <link rel="next" title="6. 其他标记" href="其他标记.html"/>
+        <link rel="prev" title="4. 表内容标记" href="表内容标记.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> My_Study_ReStructuredText
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                v0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">基础语法</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../基础语法/标题.html">1. 标题学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../基础语法/段落.html">2. 段落学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../基础语法/列表.html">3. 列表学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../基础语法/块.html">4. 块学习</a></li>
+</ul>
+<p class="caption"><span class="caption-text">中级语法</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/表格.html">1. 表格学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/水平线.html">2. 水平线学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/显式标记.html">3. 显式标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/引用.html">4. 引用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/超链接.html">5. 超链接</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/图片.html">6. 图片</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/替换引用和定义.html">7. 替换引用和定义</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/注释.html">8. 注释</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/代码块.html">9. 代码块</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Sphinx标记结构</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="toctree.html">1. toctree</a></li>
+<li class="toctree-l1"><a class="reference internal" href="内联标记.html">2. 内联标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="段落级别标记.html">3. 段落级别标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="表内容标记.html">4. 表内容标记</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">5. 显示代码</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#codeblock">5.1. 使用codeblock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">5.2. 显示行号</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">5.3. 突出特定行</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">5.4. 引用一个文件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#diff2">5.5. diff2个文件</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="其他标记.html">6. 其他标记</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">My_Study_ReStructuredText</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>5. 显示代码</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Sphinx标记结构/显示代码.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>5. 显示代码<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">我们可以在配置文件指定highlight_langeuage=”c,python”</p>
+</div>
+<div class="section" id="codeblock">
+<h2>5.1. 使用codeblock<a class="headerlink" href="#codeblock" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-c"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;%s</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="s">&quot;aaaa&quot;</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id2">
+<h2>5.2. 显示行号<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-c"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;%s</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="s">&quot;aaaa&quot;</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="id3">
+<h2>5.3. 突出特定行<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">some_function</span><span class="p">():</span>
+    <span class="n">interesting</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="hll">    <span class="k">print</span> <span class="s1">&#39;This line is highlighted.&#39;</span>
+</span>    <span class="k">print</span> <span class="s1">&#39;This one is not...&#39;</span>
+<span class="hll">    <span class="k">print</span> <span class="s1">&#39;...but this one is.&#39;</span>
+</span></pre></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>5.4. 引用一个文件<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="hll"><span class="kn">import</span> <span class="nn">sys</span>
+</span>    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;test&quot;</span><span class="p">)</span>
+<span class="hll">
+</span><span class="hll"><span class="k">def</span> <span class="nf">test2</span><span class="p">():</span>
+</span>    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;test&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test3</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;test&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test4</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;test&quot;</span><span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="diff2">
+<h2>5.5. diff2个文件<a class="headerlink" href="#diff2" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-udiff"><div class="highlight"><pre><span></span><span class="gd">--- e:\ZhaojiediProject\github\My_Study_ReStructuredText\source\Sphinx标记结构\test2.py</span>
+<span class="gi">+++ e:\ZhaojiediProject\github\My_Study_ReStructuredText\source\Sphinx标记结构\test.py</span>
+<span class="gu">@@ -1,12 +1,13 @@</span>
+ import sys
+<span class="gd">-import os</span>
+ 
+ def test1():
+<span class="gd">-    print(&quot;test3&quot;)</span>
+<span class="gi">+    print(&quot;test&quot;)</span>
+ 
+ def test2():
+<span class="gd">-    print(&quot;test2&quot;)</span>
+<span class="gi">+    print(&quot;test&quot;)</span>
+ 
+<span class="gi">+def test3():</span>
+<span class="gi">+    print(&quot;test&quot;)</span>
+ 
+ def test4():
+<span class="gd">-    print(&quot;test4&quot;)+    print(&quot;test&quot;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="其他标记.html" class="btn btn-neutral float-right" title="6. 其他标记" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="表内容标记.html" class="btn btn-neutral" title="4. 表内容标记" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, zhaojiedi1992@outlook.com.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'v0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
