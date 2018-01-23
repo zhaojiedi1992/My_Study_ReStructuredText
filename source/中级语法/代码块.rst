@@ -3,7 +3,10 @@
 ============
 
 bash代码样例
+
 ========================================================
+
+
 .. code-block:: bash
 
         #!/bin/bash
@@ -33,6 +36,10 @@ python代码样例
 
 .. code-block:: python
 
+
+.. code-block:: python
+
+
     try:
         f = open('/path/to/file', 'r')
         print(f.read())
@@ -46,6 +53,7 @@ python代码样例
     f = open('/Users/michael/gbk.txt', 'r', encoding='gbk', errors='ignore')
 
 json对象样例展示
+
 ====================================================
 
 .. code-block:: json

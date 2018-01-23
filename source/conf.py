@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# My_Study_ReStructuredText documentation build configuration file, created by
-# sphinx-quickstart on Tue Jan 23 20:14:02 2018.
+
+# Test documentation build configuration file, created by
+# sphinx-quickstart on Sat Dec 23 18:51:34 2017.
+
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -46,6 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
+
 project = 'My_Study_ReStructuredText'
 copyright = '2018, zhaojiedi1992@outlook.com'
 author = 'zhaojiedi1992@outlook.com'
@@ -115,8 +118,8 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'My_Study_ReStructuredTextdoc'
 
+htmlhelp_basename = 'My_Study_ReStructuredTextdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -143,8 +146,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'My_Study_ReStructuredText.tex', 'My\\_Study\\_ReStructuredText Documentation',
-     'zhaojiedi1992@outlook.com', 'manual'),
-]
+     'zhaojiedi1992@outlook.com', 'manual'),]
 
 
 # -- Options for manual page output ---------------------------------------
@@ -155,7 +157,6 @@ man_pages = [
     (master_doc, 'my_study_restructuredtext', 'My_Study_ReStructuredText Documentation',
      [author], 1)
 ]
-
 
 # -- Options for Texinfo output -------------------------------------------
 
