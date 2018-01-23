@@ -6,8 +6,7 @@ my_study_rst's 学习笔记
 
 我自己对rst文档的学习笔记
 
-基础语法
-=================
+
 
 .. toctree::
     :caption: 基础语法
@@ -19,8 +18,6 @@ my_study_rst's 学习笔记
     基础语法/块
 
  
-中级语法
-====================
 
 .. toctree::
     :caption: 中级语法
@@ -38,8 +35,6 @@ my_study_rst's 学习笔记
     中级语法/代码块
 
 
-Sphinx标记结构
-==============================
 
 .. toctree::
     :caption: Sphinx标记结构
