@@ -169,5 +169,8 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
+domain='linuxpanda.tech'
+site_url = 'http://' + project.replace('_','-') + "." + domain +"/"
+extensions = ['sphinx_sitemap']
 
 

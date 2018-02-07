@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>2. 内联标记 &mdash; My_Study_ReStructuredText v0.1 documentation</title>
+  <title>4. 表内容标记 &mdash; My_Study_ReStructuredText v0.1 documentation</title>
   
 
   
@@ -36,8 +36,8 @@
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="My_Study_ReStructuredText v0.1 documentation" href="../index.html"/>
-        <link rel="next" title="3. 段落级别标记" href="段落级别标记.html"/>
-        <link rel="prev" title="1. toctree" href="toctree.html"/> 
+        <link rel="next" title="5. 显示代码" href="显示代码.html"/>
+        <link rel="prev" title="3. 段落级别标记" href="段落级别标记.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -112,15 +112,9 @@
 <p class="caption"><span class="caption-text">Sphinx标记结构</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="toctree.html">1. toctree</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">2. 内联标记</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#ref">2.1. ref</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#doc">2.2. doc</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#download">2.3. download</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id2">2.4. 替换</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="内联标记.html">2. 内联标记</a></li>
 <li class="toctree-l1"><a class="reference internal" href="段落级别标记.html">3. 段落级别标记</a></li>
-<li class="toctree-l1"><a class="reference internal" href="表内容标记.html">4. 表内容标记</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4. 表内容标记</a></li>
 <li class="toctree-l1"><a class="reference internal" href="显示代码.html">5. 显示代码</a></li>
 <li class="toctree-l1"><a class="reference internal" href="其他标记.html">6. 其他标记</a></li>
 </ul>
@@ -167,13 +161,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>2. 内联标记</li>
+      <li>4. 表内容标记</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/Sphinx标记结构/内联标记.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/Sphinx标记结构/表内容标记.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -187,32 +181,30 @@
            <div itemprop="articleBody">
             
   <div class="section" id="id1">
-<h1>2. 内联标记<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="ref">
-<h2>2.1. ref<a class="headerlink" href="#ref" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-text"><div class="highlight"><pre><span></span>这个ref就是引用本项目的其他文档的连接的，需要在一个文档的顶部设置.. _topics-youindex_name:,
-在另一个文档使用 :ref:`topics-youindex_name`。
-</pre></div>
-</div>
-</div>
-<div class="section" id="doc">
-<h2>2.2. doc<a class="headerlink" href="#doc" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference internal" href="../基础语法/列表.html"><span class="doc">列表学习</span></a></p>
-</div>
-<div class="section" id="download">
-<h2>2.3. download<a class="headerlink" href="#download" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference download internal" href="../_downloads/test.csv" download=""><code class="xref download docutils literal"><span class="pre">/sphinx标记结构/test.csv</span></code></a></p>
-</div>
-<div class="section" id="id2">
-<h2>2.4. 替换<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>v0.1</p>
-<p>v0.1</p>
-<p>Feb 07, 2018</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">日期是可以设置日期格式的。</p>
-</div>
-</div>
+<h1>4. 表内容标记<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<dl class="glossary docutils">
+<dt id="term-environment">environment</dt>
+<dd>A structure where information about all documents under the root is
+saved, and used for cross-referencing.  The environment is pickled
+after the parsing stage, so that successive runs only need to read
+and parse new and changed documents.</dd>
+<dt id="term-source-directory">source directory</dt>
+<dd>The directory which, including its subdirectories, contains all
+source files for one Sphinx project.</dd>
+</dl>
+<dl class="glossary docutils">
+<dt id="term-term-1">term 1<dt id="term-term-2">term 2</dt>
+<dd>Definition of both terms.</dd>
+</dl>
+<pre>
+<strong id="grammar-token-try_stmt">try_stmt </strong> ::=  try1_stmt | try2_stmt
+<strong id="grammar-token-try1_stmt">try1_stmt</strong> ::=  &quot;try&quot; &quot;:&quot; <code class="xref docutils literal"><span class="pre">suite</span></code>
+               (&quot;except&quot; [<code class="xref docutils literal"><span class="pre">expression</span></code> [&quot;,&quot; <code class="xref docutils literal"><span class="pre">target</span></code>]] &quot;:&quot; <code class="xref docutils literal"><span class="pre">suite</span></code>)+
+               [&quot;else&quot; &quot;:&quot; <code class="xref docutils literal"><span class="pre">suite</span></code>]
+               [&quot;finally&quot; &quot;:&quot; <code class="xref docutils literal"><span class="pre">suite</span></code>]
+<strong id="grammar-token-try2_stmt">try2_stmt</strong> ::=  &quot;try&quot; &quot;:&quot; <code class="xref docutils literal"><span class="pre">suite</span></code>
+               &quot;finally&quot; &quot;:&quot; <code class="xref docutils literal"><span class="pre">suite</span></code>
+</pre>
 </div>
 
 
@@ -225,10 +217,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="段落级别标记.html" class="btn btn-neutral float-right" title="3. 段落级别标记" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="显示代码.html" class="btn btn-neutral float-right" title="5. 显示代码" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="toctree.html" class="btn btn-neutral" title="1. toctree" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="段落级别标记.html" class="btn btn-neutral" title="3. 段落级别标记" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>2. 内联标记 &mdash; My_Study_ReStructuredText v0.1 documentation</title>
+  <title>6. 其他标记 &mdash; My_Study_ReStructuredText v0.1 documentation</title>
   
 
   
@@ -36,8 +36,7 @@
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="My_Study_ReStructuredText v0.1 documentation" href="../index.html"/>
-        <link rel="next" title="3. 段落级别标记" href="段落级别标记.html"/>
-        <link rel="prev" title="1. toctree" href="toctree.html"/> 
+        <link rel="prev" title="5. 显示代码" href="显示代码.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -112,17 +111,17 @@
 <p class="caption"><span class="caption-text">Sphinx标记结构</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="toctree.html">1. toctree</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">2. 内联标记</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#ref">2.1. ref</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#doc">2.2. doc</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#download">2.3. download</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id2">2.4. 替换</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="内联标记.html">2. 内联标记</a></li>
 <li class="toctree-l1"><a class="reference internal" href="段落级别标记.html">3. 段落级别标记</a></li>
 <li class="toctree-l1"><a class="reference internal" href="表内容标记.html">4. 表内容标记</a></li>
 <li class="toctree-l1"><a class="reference internal" href="显示代码.html">5. 显示代码</a></li>
-<li class="toctree-l1"><a class="reference internal" href="其他标记.html">6. 其他标记</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. 其他标记</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">6.1. 字段标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#csv">6.2. csv表格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#csvcsv">6.3. csv表格引用一个csv文件的</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#listtable">6.4. listtable表格</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -167,13 +166,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>2. 内联标记</li>
+      <li>6. 其他标记</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/Sphinx标记结构/内联标记.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/Sphinx标记结构/其他标记.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -187,31 +186,121 @@
            <div itemprop="articleBody">
             
   <div class="section" id="id1">
-<h1>2. 内联标记<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="ref">
-<h2>2.1. ref<a class="headerlink" href="#ref" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-text"><div class="highlight"><pre><span></span>这个ref就是引用本项目的其他文档的连接的，需要在一个文档的顶部设置.. _topics-youindex_name:,
-在另一个文档使用 :ref:`topics-youindex_name`。
-</pre></div>
-</div>
-</div>
-<div class="section" id="doc">
-<h2>2.2. doc<a class="headerlink" href="#doc" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference internal" href="../基础语法/列表.html"><span class="doc">列表学习</span></a></p>
-</div>
-<div class="section" id="download">
-<h2>2.3. download<a class="headerlink" href="#download" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference download internal" href="../_downloads/test.csv" download=""><code class="xref download docutils literal"><span class="pre">/sphinx标记结构/test.csv</span></code></a></p>
-</div>
+<h1>6. 其他标记<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id2">
-<h2>2.4. 替换<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>v0.1</p>
-<p>v0.1</p>
-<p>Feb 07, 2018</p>
+<h2>6.1. 字段标记<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">fieldname:</th><td class="field-body">name</td>
+</tr>
+<tr class="field-even field"><th class="field-name">fieldname:</th><td class="field-body">age</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">fieldanme:</th><td class="field-body">getAge()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="csv">
+<h2>6.2. csv表格<a class="headerlink" href="#csv" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils" id="id3">
+<caption><span class="caption-text">Frozen Delights!</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="27%" />
+<col width="18%" />
+<col width="55%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Treat</th>
+<th class="head">Quantity</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Albatross</td>
+<td>2.99</td>
+<td>On a stick!</td>
+</tr>
+<tr class="row-odd"><td>Crunchy Frog</td>
+<td>1.49</td>
+<td>If we took the bones out, it wouldn’t be
+crunchy, now would it?</td>
+</tr>
+<tr class="row-even"><td>Gannet Ripple</td>
+<td>1.99</td>
+<td>On a stick!</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="csvcsv">
+<h2>6.3. csv表格引用一个csv文件的<a class="headerlink" href="#csvcsv" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils align-left" id="id4">
+<caption><span class="caption-text">Frozen Delights!</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="27%" />
+<col width="18%" />
+<col width="55%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Treat</th>
+<th class="head">Quantity</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Albatross</td>
+<td>2.99</td>
+<td>On a stick!</td>
+</tr>
+<tr class="row-odd"><td>Crunchy Frog</td>
+<td>1.49</td>
+<td>If we took the bones out, it wouldn’t be
+crunchy, now would it?</td>
+</tr>
+<tr class="row-even"><td>Gannet Ripple</td>
+<td>1.99</td>
+<td>On a stick!</td>
+</tr>
+</tbody>
+</table>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">日期是可以设置日期格式的。</p>
+<p class="last">如果引用一个互联网的csv文件，使用url替换file即可</p>
 </div>
+</div>
+<div class="section" id="listtable">
+<h2>6.4. listtable表格<a class="headerlink" href="#listtable" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils" id="id5">
+<caption><span class="caption-text">Frozen Delights!</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="27%" />
+<col width="18%" />
+<col width="55%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Treat</th>
+<th class="head">Quantity</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Albatross</td>
+<td>2.99</td>
+<td>On a stick!</td>
+</tr>
+<tr class="row-odd"><td>Crunchy Frog</td>
+<td>1.49</td>
+<td>If we took the bones out, it wouldn’t be
+crunchy, now would it?</td>
+</tr>
+<tr class="row-even"><td>Gannet Ripple</td>
+<td>1.99</td>
+<td>On a stick!</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
@@ -225,10 +314,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="段落级别标记.html" class="btn btn-neutral float-right" title="3. 段落级别标记" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="toctree.html" class="btn btn-neutral" title="1. toctree" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="显示代码.html" class="btn btn-neutral" title="5. 显示代码" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
