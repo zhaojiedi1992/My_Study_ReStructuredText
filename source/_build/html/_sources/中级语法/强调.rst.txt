@@ -1,0 +1,22 @@
+============
+强调
+============
+
+
+.. attention::  这是attention
+
+.. caution::  这是caution 
+
+.. danger:: 这是danger
+
+.. error::  这是error
+
+.. hint:: 这是hint
+
+.. important:: 这是important
+
+.. note:: 这是note
+
+.. tip:: 这是tip
+
+.. warning:: 这是warning

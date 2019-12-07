@@ -17,42 +17,36 @@
   
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="My_Study_ReStructuredText v0.1 documentation" href="../index.html"/>
-        <link rel="next" title="4. 块学习" href="块.html"/>
-        <link rel="prev" title="2. 段落学习" href="段落.html"/> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-  <script src="../_static/js/baidu.js"></script>
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="4. 块学习" href="块.html" />
+    <link rel="prev" title="2. 段落学习" href="段落.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -115,6 +109,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../中级语法/替换引用和定义.html">7. 替换引用和定义</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../中级语法/注释.html">8. 注释</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../中级语法/代码块.html">9. 代码块</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/强调.html">10. 强调</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Sphinx标记结构</span></p>
 <ul>
@@ -135,7 +130,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">My_Study_ReStructuredText</a>
@@ -143,11 +138,11 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
-
 
 
 
@@ -193,71 +188,64 @@
 <div class="section" id="id2">
 <h2>3.1. 圆点列表<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>这是一个item</li>
-<li>这是另一个item</li>
-<li>你能使用*，-，+都可以。</li>
+<li><p>这是一个item</p></li>
+<li><p>这是另一个item</p></li>
+<li><p>你能使用*，-，+都可以。</p></li>
 </ul>
 </div>
 <div class="section" id="id3">
 <h2>3.2. 顺序列表<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple" start="3">
-<li>这是一个item</li>
-<li>这是另一个item</li>
-<li>使用#.可以自动编号的</li>
+<li><p>这是一个item</p></li>
+<li><p>这是另一个item</p></li>
+<li><p>使用#.可以自动编号的</p></li>
 </ol>
 </div>
 <div class="section" id="id4">
 <h2>3.3. 定义列表<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt>功能</dt>
-<dd>这是一个功能描述</dd>
-<dt>注意事项</dt>
-<dd>这是注意事项描述</dd>
+<dl class="simple">
+<dt>功能</dt><dd><p>这是一个功能描述</p>
+</dd>
+<dt>注意事项</dt><dd><p>这是注意事项描述</p>
+</dd>
 </dl>
 </div>
 <div class="section" id="id5">
 <h2>3.4. 字段列表<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">姓名:</th><td class="field-body">这个是姓名字段</td>
-</tr>
-<tr class="field-even field"><th class="field-name">年龄:</th><td class="field-body">这个是年龄字段</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">工作:</th><td class="field-body">这个是工作字段，用于描述工作</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">姓名</dt>
+<dd class="field-odd"><p>这个是姓名字段</p>
+</dd>
+<dt class="field-even">年龄</dt>
+<dd class="field-even"><p>这个是年龄字段</p>
+</dd>
+<dt class="field-odd">工作</dt>
+<dd class="field-odd"><p>这个是工作字段，用于描述工作</p>
+</dd>
+</dl>
 </div>
 <div class="section" id="id6">
 <h2>3.5. 选项列表<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
-<table class="docutils option-list" frame="void" rules="none">
-<col class="option" />
-<col class="description" />
-<tbody valign="top">
-<tr><td class="option-group">
-<kbd><span class="option">-a</span></kbd></td>
-<td>列出所有条目</td></tr>
-<tr><td class="option-group">
-<kbd><span class="option">-l</span></kbd></td>
-<td>列出详细信息</td></tr>
-<tr><td class="option-group">
-<kbd><span class="option">--color=<var>auto</var></span></kbd></td>
-<td>美化输出</td></tr>
-<tr><td class="option-group">
-<kbd><span class="option">--version</span></kbd></td>
-<td>显示版本</td></tr>
-</tbody>
-</table>
+<dl class="option-list">
+<dt><kbd><span class="option">-a</span></kbd></dt>
+<dd><p>列出所有条目</p>
+</dd>
+<dt><kbd><span class="option">-l</span></kbd></dt>
+<dd><p>列出详细信息</p>
+</dd>
+<dt><kbd><span class="option">--color=<var>auto</var></span></kbd></dt>
+<dd><p>美化输出</p>
+</dd>
+<dt><kbd><span class="option">--version</span></kbd></dt>
+<dd><p>显示版本</p>
+</dd>
+</dl>
 </div>
 </div>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -266,7 +254,7 @@
         <a href="块.html" class="btn btn-neutral float-right" title="4. 块学习" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="段落.html" class="btn btn-neutral" title="2. 段落学习" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="段落.html" class="btn btn-neutral float-left" title="2. 段落学习" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -275,11 +263,11 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, zhaojiedi1992@outlook.com.
+        &copy; Copyright 2018, zhaojiedi1992@outlook.com
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>  个人博客 <a href="http://www.linuxpanda.tech/topic/"> LinuxPanda </a> . 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -292,36 +280,15 @@
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'v0.1',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>
