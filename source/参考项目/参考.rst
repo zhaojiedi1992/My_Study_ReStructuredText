@@ -1,0 +1,12 @@
+.. _topics-参考:
+
+================
+可以参考的项目
+================
+
+
+- `数据结构 <http://ds.linuxpanda.tech>`_ 
+- `golang <http://go.linuxpanda.tech>`_ 
+- `金字塔 <http://jinzita.linuxpanda.tech>`_ 
+- `个人主站 <http://www.linuxpanda.tech>`_ 
+
