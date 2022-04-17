@@ -60,3 +60,4 @@ diff2个文件
 带一个copy代码的button
 ========================================
 
+不多BB上链接 `让代码可以用户快速copy <https://sphinx-copybutton.readthedocs.io/en/latest/>`_ 
